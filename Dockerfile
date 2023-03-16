@@ -26,4 +26,5 @@ RUN python manage.py migrate
 # finally, copy over the rest of the files
 COPY . /app/
 COPY entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/entrypoint.sh
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
