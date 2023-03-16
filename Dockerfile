@@ -1,6 +1,6 @@
 FROM python:3.6.5
 ENV DEBUG=False
-ENV SECRET=passsomesecret
+ENV SECRET=X5MGxsewYp7V333Juv4U2EGjGGo7cpxgiqg
 ENV SENDGRID_API_KEY=passsomeapikey
 WORKDIR /app
 COPY requirements.txt ./
